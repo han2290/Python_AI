@@ -1,0 +1,29 @@
+1. repl->text 환경
+2. idle
+3. ipython->python shell의 진보된 버전
+4. Virtual Environments for Python environment
+	가상으로 파이선 개발환경을 구축.
+	각 가상버전마다 본인이 원하는 별도의 환경으로 구축할 수 있음
+5. conda는 패키지 관리자
+5-1 anaconda prompt
+5-2 >> conda update conda
+	conda 최신 버전으로 업데이트
+
+6. python 표준화를 위한 문서
+7. jupyter notebook 기본 경로 지정
+8. Lazy evaluation 필요할 때 연산을 하는 것
+	빅데이터		->filter	->tranform
+	기존에는 빅데이터가 각 단계를 모두 진행한다.
+	하지만 Lazy는 이 단계를 미뤄두었다가 출력하라는 등등 최종 명령이 떨어졌을 때 미뤄두었던
+	연산을 실행한다.
+	한마디로 미리미리 준비를 다 해 놓고. 보내라! 라고 하면 이제 한 번에 진행하는 것.
+	##연산 비용이 많이 드는 계산을 수행할 경우에는 이 기법이 매우 중요하다.
+9. str은 immutable 객체로 수정이 불가능하다.(문자의 리스트이지만....)
+
+10. Error
+	오류로 인해 컴파일러가 안될 때
+11. Warning
+	컴파일로 인해서 실행은 되는데 잘 되는지는 보장할 수 없다.
+12. Exception
+	Runtime Error, Dynamic Error, 프로그램 실행중 발생하는 에러
+	프로그램이 멈출정도로 강력한 에러
