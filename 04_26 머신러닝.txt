@@ -1,0 +1,4 @@
+#의사결정 트리
+Decision Block(의사결정 블록, 사각형)
+Terminal Block(단말 블록, 타원형)
+Branch(가지)
